@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Abdalla Ahmed Hegazy, Ph.D</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .header img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .header h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        .tab {
+            display: none;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab:checked + label {
+            background-color: #007bff;
+            color: white;
+        }
+        .tab:checked + label + .tab-content {
+            display: block;
+        }
+        .tabs {
+            display: flex;
+            flex-direction: column;
+        }
+        .tab-label {
+            padding: 10px;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+        .tab-content {
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-top: none;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .inner-list {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="profile.jpg" alt="Photo of Mohamed A.A. Hegazy">
+            <h1>Mohamed Abdalla Ahmed Hegazy, Ph.D</h1>
+        </header>
+
+        <div class="tabs">
+            <input type="radio" id="tab1" name="tab" class="tab" checked>
+            <label for="tab1" class="tab-label">Contact Information</label>
+            <div class="tab-content">
+                <h2>Contact Information</h2>
+                <ul>
+                    <li><strong>Address:</strong> El Mahalla El kubra, Gharbia, Egypt</li>
+                    <li><strong>Phone Number:</strong> +201117655222</li>
+                    <li><strong>Email:</strong> <a href="mailto:hegazy@khu.ac.kr">hegazy@khu.ac.kr</a></li>
+                </ul>
+            </div>
+
+            <input type="radio" id="tab2" name="tab" class="tab">
+            <label for="tab2" class="tab-label">Research Interests</label>
+            <div class="tab-content">
+                <h2>Research Interests</h2>
+                <h3>Technical Area</h3>
+                <ul>
+                    <li>Machine Learning, CT image reconstruction, Deep learning-based image processing</li>
+                </ul>
+                <h3>Application Areas</h3>
+                <ul>
+                    <li>Computer Vision, Healthcare, Computational Biology</li>
+                </ul>
+            </div>
+
+            <input type="radio" id="tab3" name="tab" class="tab">
+            <label for="tab3" class="tab-label">Education</label>
+            <div class="tab-content">
+                <h2>Education</h2>
+                <ul>
+                    <li>
+                        <strong><a href="http://www.khu.ac.kr/eng/index.jsp#">Kyung Hee University</a></strong>, Yongin-si, South Korea<br>
+                        <em>Master and Ph.D., <a href="http://bme.khu.ac.kr/eng/index.html">Biomedical Engineering</a>, Feb 2018</em>
+                        <ul class="inner-list">
+                            <li><strong>Course Grade:</strong> A+ (GPA: 4.195/4.3)</li>
+                            <li><strong>Thesis Topic:</strong> <a href="https://khis.khu.ac.kr/search/DetailView.ax?sid=1&cid=3672868">Metal Artifact Reduction in Dental Computed Tomography based on Improved Metal Segmentation</a></li>
+                            <li><strong>Advisor:</strong> <a href="http://misl.khu.ac.kr/?p=176">Soo Yeol Lee, Ph.D</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong><a href="http://cu.edu.eg/Home">Cairo University</a></strong>, Giza, Egypt<br>
+                        <em>B.S., <a href="http://bmes.cufe.edu.eg/">Systems and Biomedical Engineering</a>, May 2012</em>
+                        <ul class="inner-list">
+                            <li><strong>Course Grade:</strong> Very Good with Honors (GPA: 3.25/4) (Rank: 10th/110)</li>
+                            <li><strong>Graduation Project Topic:</strong> <a href="https://drive.google.com/open?id=1gLS_NOxlIR84SABIzCBQ-FNtvVduA0oY">Muscle Rehabilitation Device</a></li>
+                            <li><strong>Advisor:</strong> <a href="http://scholar.cu.edu.eg/?q=prof_abdalla_mohamed/biocv/">Abdalla S. Ahmed, Ph.D</a></li>
+                            <li><strong>Graduation Project Grade:</strong> Excellent</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <input type="radio" id="tab4" name="tab" class="tab">
+            <label for="tab4" class="tab-label">Research Experience</label>
+            <div class="tab-content">
+                <h2>Research Experience</h2>
+                <ul>
+                    <li>
+                        <strong>Research and Development Manager</strong> (March 2019 to present)<br>
+                        Research and Development Department (Image Processing)<br>
+                        <a href="https://www.raymedical.com/en/who-we-are/introducing-ray">Ray Co., Ltd.</a>
+                    </li>
+                    <li>
+                        <strong>Postdoctoral Fellow</strong> (March 2018 to 2019)<br>
+                        Medical Imaging Systems Lab.<br>
+                        Kyung Hee University<br>
+                        Supervisor: Soo Yeol Lee, Ph.D
+                    </li>
+                    <li>
+                        <strong>Research Assistant</strong> (March 2013 to Feb 2018)<br>
+                        Medical Imaging Systems Lab.<br>
+                        Kyung Hee University<br>
+                        Supervisor: Soo Yeol Lee, Ph.D
+                    </li>
+                </ul>
+            </div>
+
+            <input type="radio" id="tab5" name="tab" class="tab">
+            <label for="tab5" class="tab-label">Publications</label>
+            <div class="tab-content">
+                <h2>Journal Publications</h2>
+                <ul>
+                    <li><strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "Digital Modeling of Dental Casts from Their 3D CT Images with Scatter and Beam-Hardening Correction", Sensors, 24, 1995, 2024, <a href="https://doi.org/10.3390/s24061995">doi:10.3390/s24061995</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "Metal Artifact Reduction in Dental CBCT Images Using Direct Sinogram Correction Combined with Metal Path-Length Weighting", Sensors, 23, 1288, 2023, <a href="https://doi.org/10.3390/s23031288">doi:10.3390/s23031288</a></li>
+                <li>Myung Hye Cho, <strong>Mohamed A. A. Hegazy</strong>, Soo Yeol Lee, "Cone-Beam Angle Dependency of 3D Models Computed from Cone-Beam CT Images", Sensors, 2022, Vol. 22, Page 1253, vol. 22, no. 3, p. 1253, Feb. 2022, <a href="https://doi.org/10.3390/S22031253">doi:10.3390/S22031253</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Soo Yeol Lee, "Half-scan artifact correction using generative adversarial network for dental CT", Computers in Biology and Medicine, vol. 132, p. 104313, May 2021, <a href="https://doi.org/10.1016/j.compbiomed.2021.104313">doi:10.1016/j.compbiomed.2021.104313</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Soo Yeol Lee, "Image denoising by transfer learning of generative adversarial network for dental CT", Biomedical Physics and Engineering Express, vol. 6, no. 5, 2020, <a href="https://doi.org/10.1088/2057-1976/abb068">doi:10.1088/2057-1976/abb068</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "U-net based metal segmentation on projection domain for metal artifact reduction in dental CT", Biomedical Engineering Letters, vol. 9, no. 3, pp. 375–385, Aug. 2019, <a href="https://doi.org/10.1007/s13534-019-00110-2">doi:10.1007/s13534-019-00110-2</a></li>
+                <li>Mohamed E. Eldib, <strong>Mohamed A. A. Hegazy</strong>, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "A motion artifact reduction method for dental CT based on subpixel-resolution image registration of projection data", Computers in Biology and Medicine, vol. 103, pp. 232–243, Dec. 2018, <a href="https://doi.org/10.1016/j.compbiomed.2018.10.028">doi:10.1016/j.compbiomed.2018.10.028</a></li>
+                <li>Daniel Hernandez, Mohamed E. Eldib, <strong>Mohamed A. A. Hegazy</strong> Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "A head motion estimation algorithm for motion artifact correction in dental CT imaging", Physics in Medicine Biology, vol. 63, no. 6, p. 065014, Mar. 2018, <a href="https://doi.org/10.1088/1361-6560/AAB17E">doi:10.1088/1361-6560/AAB17E</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Mohamed E. Eldib, Daniel Hernandez, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "Dual-energy-based metal segmentation for metal artifact reduction in dental computed tomography", Medical Physics, vol. 45, no. 2, pp. 714–724, Feb. 2018, <a href="https://doi.org/10.1002/MP.12719">doi:10.1002/MP.12719</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, M. E. Eldib, Yang Ji Mun, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "A bench-top micro-CT capable of simulating head motions", Biomedical Engineering Letters, vol. 7, no. 3, 2017, <a href="https://doi.org/10.1007/s13534-017-0023-6">doi:10.1007/s13534-017-0023-6</a></li>
+                <li>M. E. Eldib, <strong>Mohamed A. A. Hegazy</strong>, Yang Ji Mun, Myung Hye Cho, Min Hyoung Cho, Soo Yeol Lee, "A Ring Artifact Correction Method: Validation by Micro-CT Imaging with Flat-Panel Detectors and a 2D Photon-Counting Detector", Sensors (Switzerland), vol. 17, no. 2, 2017, <a href="https://doi.org/10.3390/s17020269">doi:10.3390/s17020269</a></li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, Min Hyoung Cho, Soo Yeol Lee, "A metal artifact reduction method for a dental CT based on adaptive local thresholding and prior image generation", BioMedical Engineering Online, vol. 15, no. 1, 2016, <a href="https://doi.org/10.1186/s12938-016-0240-8">doi:10.1186/s12938-016-0240-8</a></li>
+            </ul>
+
+                <h2>Conference Papers</h2>
+                <ul>
+                    <li><strong>Mohamed A. A. Hegazy</strong>, M. H. Cho, and S. Y. Lee, "Prior-based Metal Artifact Reduction in CT using Statistical Metal Segmentation on Projection Images", 2016 IEEE Nuclear Science Symposium and Medical Imaging Conference (NSS/MIC), Strasbourg, France, 2016.</li>
+                <li>J. Kim, S. Park, <strong>Mohamed A. A. Hegazy</strong>, and S. Lee, "Comparison of a photon-counting-detector and a CMOS flat-panel-detector for a micro-CT", IEEE Nucl. Sci. Symp. Conf. Rec., South Korea, 2013.</li>
+                <li>So E. Park, Jae G. Kim, <strong>Mohamed A. A. Hegazy</strong>, Min H. Cho, Soo Y. Lee, "A flat-field correction method for photon-counting-detector-based micro-CT", Proc. SPIE 9033, Medical Imaging 2014: Physics of Medical Imaging, San Diego, California, USA, 2014.</li>
+                <li>Je-Hwang Ryu, Wan-Sun Kim, Ok-Kyun Kim, <strong>Mohamed A. A. Hegazy</strong>, Kyu-Chang Park, Soo Yeol Lee, and Hun-Kuk Park, "Development of Computed Tomography Imaging System Based on Cold Cathode X-Ray source", Annual Conference of the Institute of Electronics Engineers of Korea, Vol.37 No. 1, South Korea, 2014.</li>
+            </ul>
+
+            <h2>Conferences Abstract</h2>
+            <ul>
+                <li><strong>Mohamed A. A. Hegazy</strong>, M. H. Cho, and S. Y. Lee, "AN ADVANCED METAL ARTIFACT REDUCTION METHOD FOR A DENTAL CT", 15th International Symposium Computer Methods in Biomechanics and Biomedical Engineering, Lisbon, Portugal, 2018.</li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, M. E. Eldib, Daniel Hernandez, J. S. LEE, Y. J. Mun, M. H. Cho, M. H. Cho, and S. Y. Lee, "Dual Energy-Based Metal Segmentation for Metal Artifact Reduction in Dental Computed Tomography", 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Jeju, South Korea, 2017.</li>
+                <li><strong>Mohamed A. A. Hegazy</strong>, M. H. Cho, and S. Y. Lee, "Patient motion estimation and its correction in a CT system", The Korean Society of Medical and Biology Engineering, Busan, South Korea, 2016.</li>
+                <li>M. E. Eldib, M<strong>Mohamed A. A. Hegazy</strong>, Daniel Hernandez, Y. J. Mun, M. H. Cho, M. H. Cho, and S. Y. Lee, "Ring Artifact Correction Using Entropy Minimization", 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Jeju, South Korea, 2017.</li>
+                <li>M. E. Eldib, <strong>Mohamed A. A. Hegazy</strong>, Y. J. Mun, Min H. Cho, Soo Yeol Lee, "Non-uniformity correction in photon-counting-detector-based micro-CT", The Korean Society of Medical and Biology Engineering, Busan, South Korea, 2016.</li>
+                <li>T. S. Cho, <strong>Mohamed A. A. Hegazy</strong>, Y.K. Shin, W.B. Sohn, M. H. Cho, S. Y. Lee, "Statistical Segmentation for Metal Artifact Reduction", The Korean Society of Medical and Biology Engineering, Busan, South Korea, 2016.</li>
+                <li>Daniel Hernandez, M. E. Eldib, <strong>Mohamed A. A. Hegazy</strong>, Y. J. Mun, M. H. Cho, and S. Y. Lee, "Automatic Geometric Calibration for Cone Beam Micro-CT", 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Jeju, South Korea, 2017.</li>
+                <li>Y. J. Mun, Daniel Hernandez, <strong>Mohamed A. A. Hegazy</strong>, M. E. Eldib, M. H. Cho, and S. Y. Lee, "Automatic Optimization of Segmentation-Free Empirical Beam Hardening Correction", 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Jeju, South Korea, 2017.</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
